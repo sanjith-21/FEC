@@ -4,8 +4,6 @@ import json
 import time
 from flask import Flask, request, jsonify
 
-sys.path.insert(0, os.getcwd() + '/apis')
-
 app = Flask(__name__)
 
 
